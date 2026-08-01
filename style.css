@@ -74,7 +74,7 @@ nav ul li a:hover{
         rgba(0, 45, 32, 0.72),
         rgba(0, 45, 32, 0.72)
     ),
-    url("images/hero.jpg");
+    url("fgfg.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -93,7 +93,7 @@ nav ul li a:hover{
     margin-bottom: 35px;
 }
 
-btn{
+.btn{
     display: inline-block;
     background: #f5c542;
     color: #111;

@@ -29,11 +29,11 @@ const form =
     document.querySelector("form");
     if (form) {
         form.addEventListener("submit", function(event){
-            event,preventDefault();
+            event.preventDefault();
             const name =
     form.querySelector(
                 'input[type="text"]'
-            ).ariaValueMax.trim();
+            ).value.trim();
             const email =
     form.querySelector(
         'input[type="email"]'
@@ -118,7 +118,7 @@ const form =
                 backToTop.classList.add("visible");
                }else {
                   
-                backToTop.classList.add.remove("visible");
+                backToTop.classList.remove("visible");
                }
             });   
 });
