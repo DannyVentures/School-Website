@@ -265,14 +265,25 @@ form button:hover{
 }
 
 footer{
-    background: #03271d;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
+    background:#03271d;
+    color:white;
+    text-align:center;
+    padding:30px 30px;
+    margin-top:30px;
+    box-sizing: border-box;
 }
-
-footer p{
-    font-size: 15px;
+footerp{
+    font-size:15px;
+    margin:10px 0;
+}
+@media (max-width:768px){
+    footer{
+        padding:30px 24px;
+    }
+    footer p{
+        font-size:14px;
+        line-height:1.6;
+    }
 }
 
 @media (max-width:900px) {
