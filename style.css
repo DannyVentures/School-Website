@@ -135,29 +135,51 @@ section h2::after{
     font-size: 17px;
     color: #555;
 }
-
-.provost-greeting{
-    background: white;
-    max-width: 1100px;
-    margin: auto;
+.about-address{
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: center;
 }
-
-.provost-greeting p{
-    max-width: 900px;
-    margin: 0 auto 18px;
-    font-size: 17px;
-    color: #555;
+.about h3{
+    color: #003366;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.provost-greeting strong{
-    color: #063b2b;
-    font-size: 19px;
+.provost-message{
+    background: white;
+    max-width: 1100px;
+    margin: 20px auto;
 }
-
+.provost-message h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.provost-message p{
+    max-width: 900px;
+    margin: 0 auto 18px;
+    color: #555;
+    text-align: center;
+}
+.provost-title{
+    text-align: right;
+    margin: 5px 0 0 0;
+    max-width: none;
+}
+.provost-name{
+    text-align: right;
+    margin-bottom: 5px;
+}
 .courses{
     background: #f7f9f8;
 }
+
 
 .cards{
     max-width: 1100px;
@@ -371,4 +393,28 @@ footerp{
 .contact-info a:hover{
     color: #f5c542;
     text-decoration: underline;
+}
+.provost-signature{
+    text-align: right;
+    margin-top: 30px;
+}
+.provost-signature h4{
+    margin: 0;
+}
+.provost-signature p{
+    margin:5px 0 0 0;
+}
+.signature{
+    text-align: right;
+    margin-top: 30px;
+}
+.signature h4{
+    margin: 0;
+    color: #003366;
+}
+.signature span{
+    display: block;
+    margin-top: 5px;
+    color: #555;
+    font-weight: bold;
 }
